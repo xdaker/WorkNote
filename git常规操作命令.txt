@@ -1,0 +1,16 @@
+Git 切换分支
+//切换到目录
+cd /Users/finchina/Desktop/FinAR
+//切换到分支
+git checkout -b 1.0-dev
+
+git checkout -b 1.0-release
+
+//推送
+git push --progress "origin" 1.0-dev
+
+//拉取
+git pull --progress "origin" 1.0-dev
+
+//提交到本地
+git commit -m [message]
